@@ -1,0 +1,25 @@
+
+	<summary>
+		<People>
+			<attribute>
+				<name>place</name>
+				<feature>where</feature>
+			</attribute>
+			<attribute>
+				<name>type</name>
+				<feature>entity</feature>
+			</attribute>
+			<attribute>
+				<name>opinion</name>
+				<feature>good</feature>
+				<feature>bad</feature>
+			</attribute>
+		</People>
+		
+		<ActivityWord>
+			<attribute>
+				<name>type</name>
+				<feature>verb</feature>
+			</attribute>
+		</ActivityWord>
+	</summary>

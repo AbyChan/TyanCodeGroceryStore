@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.tyan.ai.frame.Knowledge">  
+	<class name="ZhidaoKnowledge" dynamic-update="true">
+		<id name="qstHash"></id>
+		<property name="question" />
+		<property name="qstSynHash" />
+		<property name="qstFuzzyHash" />
+		<property name="bestAnster" />
+		<property name="simpleAnster" />
+		<property name="simpleAnster2" />
+	 	<property name="simpleAnster3" />
+	 	<property name="smartAnster" />
+	</class>
+</hibernate-mapping>

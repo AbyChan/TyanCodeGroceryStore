@@ -1,0 +1,4 @@
+name:躲 main:place place:this>other vision:hide AP:active
+AB:A invalid:起来
+name:见 main: vision vision:hide>show AP:active
+AB:AB invalid:到

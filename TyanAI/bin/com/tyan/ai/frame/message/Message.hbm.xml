@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.tyan.ai.frame.message">
+	<class name="Message">
+		<id name="hashValue">
+		</id>
+		<property name="message" />
+		
+		<union-subclass name="AskMessage">
+			<property name="synonymousHash" />
+			<property name="fuzzyHash" />
+		</union-subclass>
+		<union-subclass name="AnsterMessage">
+		</union-subclass>
+	</class>
+	<class name="AALog">
+		<id name="id">
+		 <generator class="native"/>
+		</id>
+		<property name="date" />
+		<property name="question" />
+		<property name="anster" />
+		<property name="Satisfied" />
+	</class>
+</hibernate-mapping>
